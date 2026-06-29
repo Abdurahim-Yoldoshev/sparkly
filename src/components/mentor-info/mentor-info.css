@@ -1,0 +1,26 @@
+.mentor-title h3 {
+    width: 90%;
+    font-weight: 600;
+    font-size: 33px;
+    margin-top: 2rem;
+}
+
+.mentor-p {
+    margin-top: 0.5rem;
+    width: 90%;
+}
+
+.mentor-page {
+    display: flex;
+}
+
+.mentor-img img {
+    margin-top: -7rem;
+}
+
+.mentor-btn {
+    width: 7rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4rem;
+}

@@ -1,0 +1,83 @@
+.footer-contact {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-contact div ul li {
+    list-style: none;
+    width: 12rem;
+    margin-left: -2.3rem;
+}
+
+.footer-logo span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-contact div ul li a {
+    text-decoration: none;
+    color:var(--text-light);
+    margin-left: -2rem;
+}
+
+.footer-sub {
+    display: block;
+    gap: 3rem;
+}
+
+.footer-email {
+    width: 17.5rem;
+    margin-top: 1rem;
+}
+
+.footer-btn {
+    margin-top: 1rem;
+}
+
+.footer-network {
+    display: flex;
+    gap: 33.3rem;
+    margin-bottom: -5rem;
+}
+
+.footer-social ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+.footer-social ul li {
+    border-radius: 50%;
+}
+
+.footer-copy a{
+    color: #c5c5c5;
+    text-decoration: none;
+}
+
+.footer-copy p{
+    width: 17.5rem;
+}
+
+.download-link {
+    background-color: #ffffff1c;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin-left: -3rem;
+    width: 10rem;
+}
+
+.download-link i {
+    margin-left: 1rem;
+}
+
+.footer-title {
+    margin-left: -2.3rem;
+}

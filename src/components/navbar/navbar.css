@@ -1,0 +1,35 @@
+.logo-img {
+    width: 20px;
+    margin-top: -0.5rem;
+}
+
+.logo-text {
+    font-size: 30px;
+    color: var(--text-title);
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: var(--text-title)
+}
+
+.nav-register a {
+    background-color: var(--color-primary-light);
+    padding: 0.8rem 1rem;
+    border-radius: 80px;
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+

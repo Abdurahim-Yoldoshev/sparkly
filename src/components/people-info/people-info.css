@@ -1,0 +1,94 @@
+.title {
+  background-color: var(--badge-bg);
+  border: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 66px;
+  color: var(--color-primary);
+  font-weight: 600;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+.info-titles {
+    text-align: center;
+    width: 50rem;
+    margin: auto;
+}
+
+.info-titles span {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.people-info {
+    width: 80%;
+    margin: auto;
+}
+
+.team-container {
+  display: grid;
+  /* Ekranni teng 2 ta ustunga bo'ladi */
+  grid-template-columns: repeat(2, 1fr);
+  /* Kartalar orasidagi masofa */
+  gap: 24px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+.people-card {
+  display: flex;
+  align-items:center;
+  gap: 5rem;
+  /* border: 2px solid var(--badge-bg); */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card-img {
+  width: 175px;
+  height: 175px;
+  background-color: var(--color-gray-400);
+  border-radius: 8px;
+}
+
+.name{
+  font-size: 20px;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.job{
+  margin-top: -1rem;
+}
+
+.card-status{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.status-text {
+  margin-bottom: -0.2rem;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-status div label {
+  margin-top: -10rem;
+  color:var(--text-main);
+}
+
+.weive-link, .weive-link a {
+  text-decoration: none;
+  margin-top: 3rem;
+  color:var(--color-primary);
+  font-weight: 600;
+}
+
+/* Telefon ekranlarida kartalar siqilib ketmasligi uchun 1 qatorga o'tadi */
+@media (max-width: 768px) {
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+}
