@@ -21,4 +21,3 @@
 * **Stillar:** Custom CSS3 (Dinamik `:root` o'zgaruvchilari bilan)
 * **Shriftlar:** Inter Font Family
 * **Xabarnomalar:** React Toastify
-* **Yo'naltirish (Routing):** React Router DOM
