@@ -24,6 +24,7 @@ const Header = () => {
             href="https://youtu.be/X_rn32Jn4xM?si=rED8KNzhUzn6pNSy"
             target="_blank"
             className="courses-play"
+            rel="noreferrer"
           >
             <i class="fa-solid fa-circle-play"></i>
             Qanday ishlaydi
