@@ -22,22 +22,3 @@
 * **Shriftlar:** Inter Font Family
 * **Xabarnomalar:** React Toastify
 * **Yo'naltirish (Routing):** React Router DOM
-
----
-
-## 📦 Loyihani Ishga Tushirish (Installation)
-
-Loyihani o'z kompyuteringizda ishga tushirish uchun quyidagi buyruqlarni ketma-ket bajaring:
-
-```bash
-# 1. Loyihani GitHub'dan klonlash
-git clone [https://github.com/SizningUsername/sparkly.git](https://github.com/SizningUsername/sparkly.git)
-
-# 2. Loyiha papkasiga o'tish
-cd sparkly
-
-# 3. Kerakli paketlarni o'rnatish
-npm install
-
-# 4. Loyihani mahalliy serverda ishga tushirish
-npm run dev
